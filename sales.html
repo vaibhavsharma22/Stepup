@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <title>Sales Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="img/favicon_io/favicon-32x32-remove.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section id="">
+        <!----------------NAVBAR----------------->
+        <div id="navbar">
+            <div id="exploration">
+                <div id="logo-section">
+                    <div id="side-window" >
+                        <a class="closebtn" onclick="closeside()"> &times;</a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            home
+                            </span>
+                            <p>Dashboard</p>
+                        </a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            contacts
+                            </span><p>Contact</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            list
+                            </span><p>List</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            article
+                            </span><p>Forms</p></a>
+                        <a class="sidebar-menu" href="landingPage.html"><span class="material-symbols-outlined sidebar-icon">
+                            pages
+                            </span><p>Landing Pages</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            other_admission
+                            </span><p>Templates</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            campaign
+                            </span><p>Campaigns</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            share
+                            </span><p>Social Suite</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            text_snippet
+                            </span><p>File Repository</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            notifications
+                            </span><p>Push Notification</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            chat
+                            </span><p>Site Messages</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            sticky_note_2
+                            </span><p>Sticky Bars</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            language
+                            </span><p>Web Rules</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            delete
+                            </span><p>Trash</p></a>
+                        <a class="sidebar-menu" href=""><span class="material-symbols-outlined sidebar-icon">
+                            local_activity
+                            </span><p>Activities</p></a>
+                      </div>
+                    <button class="openbtn" onclick="openside()">&#9776; </button>
+                    <div>
+                        <img src="img/fev.png" alt="step-up" />
+                    </div>
+                    
+                </div>
+                <div id="marketing-section">
+                    <div class="marketing">
+                        <span class="material-symbols-outlined">
+                            campaign
+                        </span>
+                        <p>Marketing</p>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
+                    <div class="dropdown-marketing">
+                        <a href="navbar.html"> <span class="material-symbols-outlined">
+                                campaign
+                            </span>Marketing</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                stacked_line_chart
+                            </span>
+                            Sales</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                support_agent
+                            </span>
+                            Services</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                chat
+                            </span>
+                            Live Chat</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="navbar-hr">
+            <!------------option buttons-------------->
+            <div id="option-btns">
+                <div class="options-hover">
+                    <div class="options">
+                        <div class="btns">
+                            <p>Contact</p>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                    </div>
+                    <div class="dropdown-option">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                Contacts
+                            </span>
+                            Contacts</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                list
+                            </span>
+                            List</a>
+                    </div>
+                </div>
+                <div class="options-hover">
+                    <div class="options">
+                        <div class="btns">
+                            <p>Forms</p>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                    </div>
+                    <div class="dropdown-option">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                sticky_note_2
+                            </span>
+                            Inline Forms</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                folder_copy
+                            </span>
+                            Popup Forms</a>
+                    </div>
+                </div>
+                <div class="options-hover">
+                    <div class="options">
+                        <div class="btns landing-page">
+                            <p class=".landing-page">Landing Pages</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="options-hover">
+                    <div class="options">
+                        <div class="btns">
+                            <p>Templates</p>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                    </div>
+                    <div class="dropdown-option">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                mark_email_read
+                            </span>
+                            Email Templates</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                movie
+                            </span>
+                            Video Templates</a>
+                    </div>
+                </div>
+                <div class="options-hover">
+                    <div class="options">
+                        <div class="btns">
+                            <p>Campaigns</p>
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </div>
+                    </div>
+                    <div class="dropdown-option">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                mail
+                            </span>
+                            Email Broadcasts</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                sms
+                            </span>
+                            SMS Broadcasts</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                cycle
+                            </span>
+                            Sequences</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                brightness_high
+                            </span>
+                            Automations</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                rebase
+                            </span>
+                            Workflowss</a>
+                    </div>
+                </div>
+                <div class="options-hover">
+                    <div class="options">
+                        <div class="last-btn">
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                            </span>
+                        </div>
+                    </div>
+                    <div class="dropdown-option">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                groups
+                            </span>
+                            Social Suite</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                description
+                            </span>
+                            File Repository</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+                            Push Notification</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                comment
+                            </span>
+                            Site Messages</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                sticky_note_2
+                            </span>
+                            Sticky Bars</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                gavel
+                            </span>
+                            Web Rules</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                delete
+                            </span>
+                            Trash</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                vital_signs
+                            </span>
+                            Activities</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                sms
+                            </span>
+                            SMS Logs</a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                lab_profile
+                            </span>
+                            Reports</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!------------option buttons-------------->
+            <div id="profile-icons">
+
+                <div id="search-product">
+                    <div>
+                        <span class="material-symbols-outlined searchbtn">
+                            search
+                        </span>
+                    </div>
+                    <div class="dropdown-search">
+                        <div class="search-item">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                            <input type="text" class="searchTask" placeholder="Search">
+                            <div>
+                                <p>ALL</p>
+                                <span class="material-symbols-outlined">
+                                    expand_more
+                                </span>
+                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="add-content">
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+                </div>
+                <div id="call-btn">
+                    <span class="material-symbols-outlined">
+                        phone_in_talk
+                    </span>
+                </div>
+                <div id="user-img">
+                    <div>
+                        <img src="img/user.jpg" alt="User Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-popup">
+            <div id="dropdown-profile">
+                <div>
+                    <div>
+                        <img src="img/user.jpg" alt="User Image" />
+                    </div>
+                    <div>
+                        <p id="username"></p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span>
+                    Billing
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        settings_account_box
+                    </span>
+                    Preference</a>
+                <a href="preference.html">
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                    Account Settings</a>
+                <a href="Referrals.html">
+                    <span class="material-symbols-outlined">
+                        attach_money
+                    </span>
+                    Refer & Earn</a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        reviews
+                    </span>
+                    Feedback</a>
+                <hr>
+                <a href="index.html">
+                    <span class="material-symbols-outlined">
+                        logout
+                    </span>
+                    Logout</a>
+            </div>
+        </div>
+        <!----------------NAVBAR----------------->
+        <div id="lower-navbar" class="">
+            <div class="dashboard-setting">
+                <div>
+                    <div class="dashboard-button">
+                        <h3>Sales Dashboard</h3>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
+                    <div class="dropdown-setup">
+                        <div class="dropdown-dashboard">
+                            <a href="">Manage Dashboards</a>
+                            <hr id="dashboard-hr">
+                            <a href="">Agency Dashboard</a>
+                            <a href="">Marketing Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="add-reports">
+                        <p>Add Reports</p>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
+                    <div>
+                        <form class="dashboard-box">
+                            <div class="dashboard-create">
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" class="checkbox" data-id="2" required value="">
+
+                                    </div>
+                                    <div>
+                                        <label>Email Stats</label>
+                                        <p>Overview on all your emails sent</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="2" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Calls Stats</label>
+                                        <p>Provides all calls count based on the data range</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="2" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>My Contacts</label>
+                                        <p>Display all your contact lists</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="1" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Forms</label>
+                                        <p>Display subscriber count captured through forms</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="2" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Web Popups</label>
+                                        <p>Display subscriber count captured through popup forms</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="3" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Top Landing Pages</label>
+                                        <p>Display stats on best performing landing pages</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="2" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Landing Page Performance</label>
+                                        <p>Display landing page insights</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="3" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Landing Pages</label>
+                                        <p>Display landing page subscriber count</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="3" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Contact Created by Day</label>
+                                        <p>Display contact created on a day-by-day basis</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="2" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Contact by Source</label>
+                                        <p>Display contact source overview</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="2" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Top Broadcasts with Click Rate</label>
+                                        <p>Display stats on best performing broadcasts by click rate</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="2" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Top Broadcasts with Open Rate</label>
+                                        <p>Display stats on best performing broadcasts by open rate</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="dashboard" data-id="3" class="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <label>Sequence List</label>
+                                        <p>Display all your sequence along with contact count</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="radio" class="checkbox" data-id="2" value="">
+                                    </div>
+                                    <div>
+                                        <label>Contact Tag Growth</label>
+                                        <p>Gain quick insights on how your contacts with specific tags have changed over
+                                            time</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div>
+                                <input type="submit" value="+ ADD" class="dashboard-add-btn">
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------>
+        <div id="main-section">
+            <div class="dashboard-section">
+                <!-- <div class="card" >
+                    <div>
+                        <div class="dashboard-heading">
+                            <h4>Landing page Performance</h4>
+                            <p>Data Range: Monthly</p>
+                        </div>
+
+                        <div class= "dashboard-icons">
+                            <span class="material-symbols-outlined delete-button">
+                                delete
+                            </span>
+                            <span class="material-symbols-outlined">
+                                edit
+                            </span>
+                        </div>
+                    </div>
+                    <div class="textarea-box">
+                        <textarea type="text" readonly></textarea>
+                    </div>
+                </div> 
+
+                <div class="card">
+                    <div>
+                        <div class="dashboard-heading">
+                            <h4>Landing page Performance</h4>
+                            <p>Data Range: Monthly</p>
+                        </div>
+
+                        <div  class="dashboard-icons">
+                            <span class="material-symbols-outlined delete-button">
+                                delete
+                            </span>
+                            <span class="material-symbols-outlined">
+                                edit
+                            </span>
+                        </div>
+                    </div>
+                    <div class="subscriber-count">
+                        <div>
+                            <h1>0</h1>
+                            <h3>Sent</h3>
+                        </div>
+                        <div>
+                            <h1>0</h1>
+                            <h3>Hard Bounces</h3>
+                        </div>
+                        <div>
+                            <h1>0</h1>
+                            <h3>Soft Bounces</h3>
+                        </div>
+                        <div>
+                            <h1>0</h1>
+                            <h3>Spam</h3>
+                        </div>
+                        <div>
+                            <h1>0</h1>
+                            <h3>Unsubscribes</h3>
+                        </div>
+                        <div>
+                            <h1>0</h1>
+                            <h3>Sent</h3>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="dashboard-heading">
+                            <h4>Landing page Performance</h4>
+                            <p>Data Range: Monthly</p>
+                        </div>
+
+                        <div class= "dashboard-icons">
+                            <span class="material-symbols-outlined delete-button">
+                                delete
+                            </span>
+                            <span class="material-symbols-outlined">
+                                edit
+                            </span>
+                        </div>
+                    </div>
+                    <div class="blank-img">
+                        <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/themev2/img/no-data-images/C-1.svg"/>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+        <div class="chatBotData" id="chatBotData">
+            <!-- append chatBot here -->
+              <i class="fa-solid fa-circle-xmark cross"></i>
+              <div class="chat-header">
+                <img src="img/favicon_io/favicon-32x32-remove.png" alt="">
+                <p>Step-Up Support Team</p>
+              </div>
+              <div class="chat-body" id="msgBody">
+          
+              </div>
+              <form>
+                <input type="text" placeholder="Enter Your msg" class="chat-input">
+                <input type="submit" value="Send" class="sendButton">
+              </form>
+          </div>
+          <div class="chatbot">
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </div>
+    </section>
+
+</body>
+
+</html>
+<script src="scripts/navbar.js"></script>
+<script src="scripts/index.js"></script>
+<script src="https://kit.fontawesome.com/82c1872f04.js" crossorigin="anonymous"></script>

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#sync button:hover{
+    background-color:#01318c ;
+}
+#p1 button:hover{
+    background-color:#01318c ;
+}
+#container{
+    /* border: 1px solid black; */
+   margin-top: 60px;
+    background-color: rgb(238, 237, 237);
+}
+#first{
+    /* border: 1px solid rgb(0, 179, 255); */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: white;
+}
+#first>div{
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    font-size: 20px;
+}
+#second{
+    display: flex;
+    padding: 5px 5px 0px 5px;
+    margin-left: 5px;
+   
+}
+#secondS{
+    height: auto;
+}
+#second>div{
+    border-radius: 5px;
+}
+#secondF{
+    /* border: 1px solid blue; */
+    width: 450px;
+    margin-right: 10px;
+    background-color: white;
+    padding-top: 20px;
+}
+#list{
+    margin: auto;
+    
+    display: flex;
+    width: 85%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#list img{
+    border-radius: 10px;
+    border: 1px solid rgb(185, 185, 185); 
+}
+#list>div>p{
+    font-size: 13px;
+}
+#list>div{
+  
+    margin-left: 20px;
+}
+#secondF>ul{
+    margin: auto;
+   
+    width: 85%;
+    list-style: none;
+}
+li:hover{
+    /* background-color: pink; */
+    color: rgb(88,148,254);
+    background-color: rgb(243,246,249);
+}
+#secondF>ul>li{
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    user-select: none;
+}
+#profile{
+    margin: auto;
+    /* border:1px solid red; */
+    width: 96%;
+    margin-top: 30px;
+    height: auto;
+}
+#p1{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#p1>button{
+    padding: 10px 25px;
+    background-color:#377dff;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+#p2>div{
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 115px;
+    height: 115px;
+    margin: 5px 0px;
+}
+#p2>div>img{
+    margin-top: 7px;
+}
+#p2>p{
+    font-size: 11px;
+    font-weight:600;
+    color: gray;
+    margin-bottom: 50px;
+}
+#p3{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap:25px;
+    margin-bottom: 80px;
+    /* border:1px solid black */
+}
+#p3 input{
+    width: 98%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: rgb(243,246,249);
+    border: 0px;
+    font-size: 18px;
+    /* border: 1px solid red; */
+}
+#p3 select{
+    /* border: 1px solid red; */
+    width: 98%;
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background-color: rgb(243,246,249);
+    border: 0px;
+    font-size: 18px;
+}
+
+/* #p3 div{
+    margin: 10px 0px;
+} */
+#secondS{
+    width: 100%;
+    background-color: white;
+    /* height: 800px; */
+    /* border: 1px solid blue; */
+}
+#sync{
+    width: 95%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: auto;
+    gap: 15px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+#sync>div{
+    /* height: 200px; */
+    /* border: 1px solid red; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#sync>div img{
+    margin: 10px auto;
+}
+#sync>div p{
+    margin: 15px 0px;
+}
+#sync>div button{
+    margin: 8px auto;
+    padding: 10px 25px;
+    background-color:#377dff;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+@media all and (min-width:1px) and (max-width:1100px){
+    #second{
+        flex-direction: column;
+    }
+    #secondF{
+        width: 99%;
+    }
+    #list img{
+        width: 13%;
+    }
+}
